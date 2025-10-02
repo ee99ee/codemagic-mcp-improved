@@ -4,10 +4,14 @@ Base module for Codemagic MCP server with common functionality.
 import os
 import requests
 from typing import Dict, Any
+from dotenv import load_dotenv
 
 
 # Global variables
 BASE_URL = "https://api.codemagic.io"
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 def get_headers() -> Dict[str, str]:
