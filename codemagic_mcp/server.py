@@ -21,3 +21,7 @@ register_builds_tools(mcp)
 register_workflows_tools(mcp)
 register_caches_tools(mcp)
 register_teams_tools(mcp)
+
+# Run the server if this module is executed directly
+if __name__ == "__main__":
+    mcp.run()

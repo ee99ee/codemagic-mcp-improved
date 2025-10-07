@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "codemagic": {
+      "command": "poetry",
+      "args": [
+        "run",
+        "python",
+        "-m",
+        "codemagic_mcp.server"
+      ],
+      "cwd": "/Users/cmiller/domains/open-source/codemagic-mcp-improved"
+    }
+  }
+}
